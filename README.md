@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Secure Password Generator
 
-## Getting Started
+## Description
+A simple and secure password generator that allows users to create strong passwords. Customize the length and character types to enhance your online security.
 
-First, run the development server:
+## Features
+- Generate passwords of customizable lengths.
+- Choose from various character types: uppercase letters, lowercase letters, numbers, and symbols.
+- Copy generated passwords to the clipboard with a single click.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
+   ```bash
+   cd <project-directory>
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Open your browser and go to `http://localhost:3000` to access the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Use the slider or input field to set the desired password length.
 
-## Deploy on Vercel
+4. Select the character types you want to include in your password.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Click on the password display area or the copy button to copy the generated password to your clipboard.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
