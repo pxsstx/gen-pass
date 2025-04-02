@@ -12,12 +12,12 @@ A simple and secure password generator that allows users to create strong passwo
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pxsstx/gen-pass.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd <project-directory>
+   cd gen-pass
    ```
 
 3. Install the dependencies:
